@@ -8,7 +8,7 @@ scheduler.
 
 ## How to use
 * If you don’t already have it, download and install
-  [the latest python 2.7](http://www.python.org/getit/).
+  [the latest python 3](http://www.python.org/getit/).
 * Download [the latest release](https://github.com/Chronial/snapraid-runner/releases)
   of this script and extract it anywhere or clone this repository via git.
 * Copy/rename the `snapraid-runner.conf.example` to `snapraid-runner.conf` and
@@ -22,11 +22,13 @@ scheduler.
 * Can create a size-limited rotated logfile.
 * Can send notification emails after each run or only for failures.
 * Can run `scrub` after `sync`
+* Can force sync despite delete threshold
 
 ## Changelog
 ### Unreleased
 * Add support for running `snapraid touch` (by ShoGinn, PR-11)
 * Add SMTP TLS support
+* Forked by Maleesh
 
 ### v0.3 (20 Jul 2017)
 * Limit size of sent emails
